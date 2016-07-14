@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "4 2 3\n",
+      "output": "T(n) = \u0398(n**3)\n"
+    },
+    {
+      "category": "public",
+      "input": "9 3 2\n",
+      "output": "T(n) = \u0398(n**2 * log n)\n"
+    }
+  ],
+  "activity_revision": "1.0.0",
+  "b3fff004f281d8321071e35095d2a46e": {
+    "timestamp": "2016-07-10T15:35:08.499360",
+    "feedback": "",
+    "summary": "....."
+  },
+  "key": "17FED91E000000",
+  "last_commit": "b3fff004f281d8321071e35095d2a46e"
+}

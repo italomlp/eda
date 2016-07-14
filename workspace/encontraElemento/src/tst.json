@@ -1,0 +1,22 @@
+{
+  "c947e8de548c019b72d0635ae81755ca": {
+    "timestamp": "2016-07-04T03:13:10.179650",
+    "feedback": "",
+    "summary": "......."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "7\n1 5 3 2 88 9 2\n",
+      "output": "n\u00e3o\n"
+    },
+    {
+      "category": "public",
+      "input": "7\n1 5 7 2 88 9 2\n",
+      "output": "sim\n"
+    }
+  ],
+  "activity_revision": "1.0.0",
+  "key": "123AE50E000000",
+  "last_commit": "c947e8de548c019b72d0635ae81755ca"
+}

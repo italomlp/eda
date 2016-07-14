@@ -1,0 +1,24 @@
+{
+  "300cc7a04e07f1352d317bc90dd9e91b": {
+    "timestamp": "2016-07-04T05:29:37.332990",
+    "feedback": "",
+    "summary": "....."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "3\n2\n",
+      "output": "9\n"
+    },
+    {
+      "category": "public",
+      "input": "5\n2\n",
+      "output": "25\n"
+    }
+  ],
+  "filename": "PotenciaRecursiva.java",
+  "tst_files": [],
+  "activity_revision": "1.0.2",
+  "key": "1336BAAE000000",
+  "last_commit": "300cc7a04e07f1352d317bc90dd9e91b"
+}
