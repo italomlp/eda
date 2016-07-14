@@ -4,39 +4,46 @@ class BuscaBinaria {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int[] nums = split(sc.nextLine());
+		int n = Integer.parseInt(sc.nextLine());
+		
+		busca(nums, n);
 		
 	}
 	
-	public void buscaBinaria(int[] seq, int n){
-		int[] indicesVisitados = new int[0];
-		int indMediana = (seq.length - 1) / 2;
-		if(seq.length == 1 && seq[0] != n){
+	public static void busca(int[] seq, int n){
+		buscaBinaria(seq, n, 0, seq.length - 1);
+	}
+	
+	private static void buscaBinaria(int[] seq, int n, int ini, int fim){
+		int med = (ini + fim) / 2;
+		
+		if(ini <= fim){
+			System.out.println(med);
+			if(seq[med] == n){
+				return;
+			}
+			
+			if(seq[med] > n){
+				buscaBinaria(seq, n, ini, med - 1);
+			} else {//if(seq[med] < n){
+				buscaBinaria(seq, n, med + 1, fim);
+			}
+			
+		} else {
 			System.out.println(-1);
 		}
-		
-		if(seq[indMediana] < n){
-			System.out.println(indMediana);
-			buscaBinaria(divideArray(seq, 0, seq.length / 2), n);
-		} else if(seq[indMediana] > n){
-			System.out.println(indMediana);
-			buscaBinaria(divideArray(seq, seq.length / 2, seq.length - 1), n);
-		} else { //if(seq[indMediana] == n){
-			System.out.println(indMediana);
-		}
-		
 	}
 	
-	public int[] divideArray(int[] array, int indComeco,
-			int indFim){
-		int[] seq = new int[(indFim - indComeco)];
-		int indControle = indComeco;
-		for(int i = 0; i < seq.length; i++){
-			seq[i] = array[indControle];
-			indControle++;
+	public static int[] split(String values){
+		String[] val = values.split(" ");
+		int[] seq = new int[val.length];
+		
+		for(int i = 0; i < val.length; i++){
+			seq[i] = Integer.parseInt(val[i]);
 		}
 		return seq;
 	}
-	
-	public int[] split(int[] array)
+
 	
 }
