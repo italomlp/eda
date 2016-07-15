@@ -1,0 +1,22 @@
+{
+  "42b599189ecf2c8031869905b356df8b": {
+    "timestamp": "2016-07-14T23:33:32.334100",
+    "feedback": "",
+    "summary": "......."
+  },
+  "tests": [
+    {
+      "category": "public",
+      "input": "3 5 8 10 12 18 20\n99\n",
+      "output": "-1\n"
+    },
+    {
+      "category": "public",
+      "input": "3 5 8 10 12 18\n3\n",
+      "output": "0\n"
+    }
+  ],
+  "activity_revision": "1.0.1",
+  "key": "12A0E436000000",
+  "last_commit": "42b599189ecf2c8031869905b356df8b"
+}
