@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "5 0 6 2\n",
+      "output": "[0, 5, 6, 2]\n[0, 5, 6, 2]\n[0, 2, 5, 6]\n"
+    },
+    {
+      "category": "public",
+      "input": "4 3 2 1\n",
+      "output": "[3, 4, 2, 1]\n[2, 3, 4, 1]\n[1, 2, 3, 4]\n"
+    }
+  ],
+  "last_commit": "b72fe1db938e969f164aa00aa98dca88",
+  "activity_revision": "1.0.2",
+  "key": "111EF20E000000",
+  "b72fe1db938e969f164aa00aa98dca88": {
+    "timestamp": "2016-07-20T17:29:17.641410",
+    "feedback": "",
+    "summary": "....."
+  },
+  "f760de4dbc1ddd8d29cf11e8b687809a": {
+    "timestamp": "2016-07-20T17:28:40.563210",
+    "feedback": "",
+    "summary": "....."
+  }
+}

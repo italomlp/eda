@@ -1,0 +1,42 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "3 1 8 4 7 11 2\n",
+      "output": "1 3 4 7 8 2 11\n1 3 4 7 2 8 11\n1 3 4 2 7 8 11\n1 3 2 4 7 8 11\n1 2 3 4 7 8 11\n"
+    }
+  ],
+  "9c417ee39b3d1f766cb318fe34d15394": {
+    "timestamp": "2016-07-20T17:06:21.587000",
+    "feedback": "",
+    "summary": "...F."
+  },
+  "7b5b5913b4a30e7f2984ad298e4dd675": {
+    "timestamp": "2016-07-20T15:04:32.225860",
+    "feedback": "",
+    "summary": "F.FF."
+  },
+  "79570c5d570c8631fd0e24d4c8f845af": {
+    "timestamp": "2016-07-20T16:16:25.812750",
+    "feedback": "",
+    "summary": ".F.FF"
+  },
+  "activity_revision": "1.0.0",
+  "key": "1307C5B6000000",
+  "last_commit": "9c417ee39b3d1f766cb318fe34d15394",
+  "440d8b61ce22526b7274c408926a8953": {
+    "timestamp": "2016-07-20T15:31:24.274970",
+    "feedback": "",
+    "summary": "F.FF."
+  },
+  "e1ca1d3ed6ba59a913a5ca3e6e8d83ab": {
+    "timestamp": "2016-07-20T15:06:05.950160",
+    "feedback": "",
+    "summary": "F.FF."
+  },
+  "7c69c5f552570ea21e8e551f38fa1f5b": {
+    "timestamp": "2016-07-20T15:09:03.933740",
+    "feedback": "",
+    "summary": ".F..F"
+  }
+}

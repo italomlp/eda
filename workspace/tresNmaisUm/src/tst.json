@@ -1,0 +1,29 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "2\n6\n",
+      "output": "9\n"
+    },
+    {
+      "category": "public",
+      "input": "1\n10\n",
+      "output": "20\n"
+    }
+  ],
+  "filename": "TresNmaisUm.java",
+  "tst_files": [],
+  "activity_revision": "1.0.1",
+  "key": "14A44436000000",
+  "last_commit": "611a8fd8d35209c70e3c59875091c258",
+  "411c0983e978b258b976406b2002553a": {
+    "timestamp": "2016-07-20T14:20:47.873200",
+    "feedback": "",
+    "summary": "sssss"
+  },
+  "611a8fd8d35209c70e3c59875091c258": {
+    "timestamp": "2016-07-20T14:33:41.367630",
+    "feedback": "",
+    "summary": "sssss"
+  }
+}

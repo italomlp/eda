@@ -12,7 +12,7 @@ class TresNmaisUm {
 		
 	}
 	
-	public static Vector fazArray(int n){
+	public static Vector<Integer> fazArray(int n){
 		Vector<Integer> seq = new Vector<>();
 		seq.add(n);
 		while(n != 1){
@@ -27,6 +27,5 @@ class TresNmaisUm {
 			return n / 2;
 		else 
 			return 3 * n + 1;
-	}
-	
+	}	
 }
